@@ -1,0 +1,89 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+.header {
+    background-color: rgb(248, 40, 40);
+    height: 100px;
+    width: auto;
+    border-style: solid;
+    border-width: 1px;
+    border-color: darkred;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.header .header-content {
+    display: grid;
+    place-items: left;
+    padding-left: 40px;
+}
+.header .header-content .titulo {
+    font-size: 24px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sub-header {
+    background-color: rgb(217, 217, 217);
+    height: 60px;
+    display: grid;
+    place-items: center;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.sub-header .sub-header-text {
+    font: caption;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.miniatura {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-style: solid;
+    border-radius: 5PX;
+    border-width: 1px;
+    background-color: rgb(232, 232, 232);
+    display: grid;
+    place-items: center;
+    font-size: 20px;
+}
+
+.img {
+    width: 400px;
+    height: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.footer {
+    font-size: 18px;
+}
+
+address a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer .logos {
+    width: 18px;
+    height: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+}
